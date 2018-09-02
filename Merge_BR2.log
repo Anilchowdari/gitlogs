@@ -1,0 +1,50 @@
+git log Code\BR2_cv\BR2\src\incl\shr\brcbrpb.h
+gitk
+git diff --name-only rel/L15.08-ACI rel/test_build
+git branch
+cls
+git branch
+git status
+git push origin
+history
+doskey /history > command.log
+git log --name-status --oneline rel/L15.08-ACI..rel/test_build | grep "^A"| more
+git log --name-status --oneline rel/L15.08-ACI..rel/test_build | grep "^A"| wc
+git log --name-status --oneline rel/L15.08-ACI..rel/test_build | grep "^M"| wc
+git branch
+git merge origin/rel/test_build
+git config --global user.email "anilchowdari.kodavati@hp.com"
+git config --global user.name "Kodavati, Anilchowdari"
+cls
+git merge origin/rel/test_build
+git commit
+git status
+git log --name-status --oneline rel/L15.08-ACI..rel/test_build
+git log | more
+git log --name-status --oneline rel/L15.08-ACI..rel/test_build 
+git diff --name-only rel/L15.02-ACI...rel/test_build |more
+git diff --name-only rel/L15.02-ACI...rel/test_build 
+git branch
+git diff --name-only rel/L15.08-ACI...rel/test_build 
+git diff --name-only rel/L15.08-ACI..rel/test_build 
+cls
+git diff --name-only rel/L15.08-ACI...rel/test_build
+git diff --name-only rel/test_build...rel/L15.08-ACI
+git diff --name-only rel/test_build..rel/L15.08-ACI
+git branch
+git log Code/BR2_cv/BR2/src/lib/ems/logEMS.cc
+git log --name-status --oneline rel/L15.08-ACI..rel/test_build 
+git diff --name-only rel/L15.08-ACI rel/L15.02-ACF
+git diff --name-only rel/L15.08-ACI rel/test_build
+git branch
+git checkout rel/test_build
+git log Code/BR2_cv/BR2/src/comp/dma/DMBtph.cc|more
+git log | more
+git branch
+git checkout rel/L15.08-ACI
+git diff --name-only rel/L15.08-ACI rel/test_build
+dir Code/BR2_cv/BR2/src/incl/shr/brcbrpb.h
+dir Code
+dir Code\BR2_cv\BR2\src\incl\shr\brcbrpb.h
+git log Code\BR2_cv\BR2\src\incl\shr\brcbrpb.h
+git branch

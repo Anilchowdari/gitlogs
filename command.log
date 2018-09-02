@@ -1,0 +1,48 @@
+git clone ssh://anilchowdari.kodavati@cgit-pro.austin.hp.com:29418/backup_restore-br2
+dir
+cd backup_restore-br2
+git branch
+git branch -r | grep
+git branch -r | grep ACI
+git pull origin
+git branch -r | grep ACI
+git checkout -b rel/L15.08-ACI origin/rel/L15.08-ACI
+git branch -r
+git branch 
+git log rel/L15.08-ACI../origin/rel/test_build
+git log rel/L15.08-ACI..origin/rel/test_build
+set TERM=msys
+git log rel/L15.08-ACI..origin/rel/test_build
+git log rel/L15.08-ACI..origin/rel/test_build | grep -i dmbtph
+git log rel/L15.08-ACI..origin/rel/test_build | grep -i dm
+git log rel/L15.08-ACI..origin/rel/test_build | grep -i dmb
+git log rel/L15.08-ACI..origin/rel/test_build | grep -i dmbtph
+git branch
+git checkout -b rel/test_build origin/rel/test_build
+git log
+git log| grep -i dmbtph
+git log| grep -i dmbt
+git log| grep -i dmb
+git log| grep -i dmrstub
+git log| grep -i stub
+git log| grep -i dmrtph
+git log| grep -i dmstubs
+git log| grep -i logems
+git branch
+dir Code\BR2_cv\BR2\src\comp\dma\
+dir Code\BR2_cv\BR2\src\comp\dma\DMB*
+dir Code\BR2_cv\BR2\src\comp\dma\DMBt*
+dir Code\BR2_cv\BR2\src\comp\dma\DMR*
+git branch
+git diff rel/L15.08-ACI rel/test_build
+git diff --oneline rel/L15.08-ACI rel/test_build
+git diff --oneline --name-status rel/L15.08-ACI rel/test_build
+git pull origin
+git diff --oneline --name-status rel/L15.08-ACI rel/test_build
+git branch
+git checkout rel/L15.08-ACI
+git pull origin
+git diff --oneline --name-status rel/L15.08-ACI rel/test_build
+git branch
+git diff --oneline --name-status rel/test_build..rel/L15.08-ACI
+doskey /history >command.log

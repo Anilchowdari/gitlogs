@@ -1,0 +1,49 @@
+e: 
+cd ST-Views
+ls
+cd Santhosh_G
+cd Santhosh_GIT
+ls
+cd backup_restore-br2
+ls
+git branch
+git status 
+git branch
+git add Code/BR2_cv/BR2/src/comp/dma/DMRsbj.cc
+git add Code/BR2_cv/BR2/src/lib/brpar/bldInnParser.sh
+git status
+git commit -m "Wildcard support for restore"
+git status
+git branch -r
+git checkout rel/L15.08-ACI
+git branch 
+git diff --name-only rel/L15.08-ACI rel/wildcard_L15.08-ACI
+git checkout rel/wildcard_L15.08-ACI
+git branch 
+git merge origin/rel/L15.08-ACI
+git checkout rel/L15.08-ACI
+git branch 
+git merge origin/rel/wildcard_L15.08-ACI
+git merge rel/wildcard_L15.08-ACI
+git branch 
+git log --name-status --oneline rel/wildcard_L15.08-ACI..rel/L15.08-ACI
+set TERM=msys
+git log --name-status --oneline rel/wildcard_L15.08-ACI..rel/L15.08-ACI
+git log --name-status --oneline rel/L15.08-ACI rel/wildcard_L15.08-ACI
+git branch 
+git pull -v origin
+git log --name-status --oneline rel/L15.08-ACI rel/wildcard_L15.08-ACI
+git branch
+git status
+git log | more
+git show 3070be471a7bfd4f71c6ba515a7df6af62ed7c15
+git branch
+git diff rel/L15.08-ACI..origin/rel/L15.08-ACI
+git diff --name-status rel/L15.08-ACI..origin/rel/L15.08-ACI
+gitk
+git branch
+git push
+git branch
+git remote
+git push origin rel/L15.08-ACI
+
