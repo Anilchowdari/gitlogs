@@ -46,3 +46,4 @@ git diff --oneline --name-status rel/L15.08-ACI rel/test_build
 git branch
 git diff --oneline --name-status rel/test_build..rel/L15.08-ACI
 doskey /history >command.log
+git branch -r
