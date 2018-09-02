@@ -47,4 +47,4 @@ dir Code/BR2_cv/BR2/src/incl/shr/brcbrpb.h
 dir Code
 dir Code\BR2_cv\BR2\src\incl\shr\brcbrpb.h
 git log Code\BR2_cv\BR2\src\incl\shr\brcbrpb.h
-git branch
+git branch -r
