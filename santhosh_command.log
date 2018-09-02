@@ -46,4 +46,5 @@ git push
 git branch
 git remote
 git push origin rel/L15.08-ACI
-
+git branch -r
+git log --name-only
